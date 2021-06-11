@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my Magic Notes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class='navbar'>
+        <div class="navv">
+            <li><a href='#'>Magic Notes</a></li>
+            <li><a href='#'>Home</a></li>
+        </div>
+
+        <form class="input">
+            <input type='search' id='searchTxt' placeholder="Search">
+            <button class='btn'>Search</button>
+        </form>
+    </nav>
+
+    <div class="container">
+        <h1>Welcome To Magic Notes</h1>
+        <div class="card">
+            <div class="card-box">
+                <h3>Add Title</h3>
+                <input type="text" name="text" id="addTitle" placeholder="Add title">
+                <h3>Add a note</h3>
+                <p> <textarea name="" id="addText" rows="3" cols="65"></textarea></p>
+                <button class='button' id='addBtn'>Add Note</button>
+            </div>
+        </div>
+        <h1 class='heading'>Your Notes</h1>
+        <hr>
+        <div id="notes" class="row">
+            <!-- <div class="cards">
+                <div class="card-part">
+                    <h3 class='title'>Note Title</h3>
+                    <p class='para'></p>
+                    <button class='button'>Delete Note</button>
+                </div>
+            </div> -->
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
